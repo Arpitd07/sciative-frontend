@@ -63,10 +63,22 @@ body {
 /* MOST POPULAR TOOLS */
 .tool-card {
   border-radius: 10px;
+  transition: transform 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  -moz-transition: transform 0.2s ease;
+  -ms-transition: transform 0.2s ease;
+  -o-transition: transform 0.2s ease;
 }
 .popular-tools {
   background: linear-gradient(to bottom right, #f3eeaa, #afc0f1);
   padding: 140px;
+}
+.tool-card:hover{
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
 }
 
 /* HOW IT WORKS */
