@@ -30,12 +30,12 @@ body {
 .small-circle {
   width: 175px;
   top: 330px;
-  left: 400px;
+  left: 245px;
 }
 .big-circle {
   width: 250px;
   bottom: -40px;
-  right: 360px;
+  right: 2500px;
 }
 .btn-purple {
   color: white;
